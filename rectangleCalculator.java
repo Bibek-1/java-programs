@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class q4 extends JFrame implements ActionListener {
+public class rectangleCalculator extends JFrame implements ActionListener {
     JFrame f;
     JLabel lb1;
     JLabel lb2;
@@ -9,7 +9,7 @@ public class q4 extends JFrame implements ActionListener {
     JTextField t1,t2,arearesult,periresult;
     JButton b1;
     
-public q4()
+public q4rectangleCalculator()
 {
     f = new JFrame("Rectangle");
     lb1 = new JLabel("Enter length");
