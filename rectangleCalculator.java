@@ -66,7 +66,7 @@ public void actionPerformed(ActionEvent e) {
 }
 public static void main (String[]args){
     {
-           new q4();
+           new rectangleCalculator();
 }
 }
 }
