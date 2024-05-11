@@ -50,7 +50,7 @@ public q4rectangleCalculator()
         f.add(t1);
         f.add(t2);
         f.add(arearesult);
-        f.add(periresult);
+        f.add(perimeterresult);
         f.add(b1);
      
 }
@@ -61,7 +61,7 @@ public void actionPerformed(ActionEvent e) {
         double width = Double.parseDouble(t2.getText());
         double perimeter = 2 * (length + width);
         double area = length * width;
-        periresult.setText(String.valueOf(perimeter));
+        perimeterresult.setText(String.valueOf(perimeter));
         arearesult.setText(String.valueOf(area));
 }
 public static void main (String[]args){
